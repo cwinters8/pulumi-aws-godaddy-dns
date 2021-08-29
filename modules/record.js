@@ -12,8 +12,8 @@ const ConfigureRecord = ({
     name: recordName,
     records,
     ttl,
-    recordType,
     zoneId: hostedZoneId,
+    type: recordType,
   });
   return record;
 };
