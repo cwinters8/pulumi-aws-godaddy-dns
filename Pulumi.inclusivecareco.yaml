@@ -1,0 +1,7 @@
+config:
+  aws:region: us-west-2
+  pulumi-aws-godaddy-dns:domain: inclusivecareco.org
+  pulumi-aws-godaddy-dns:godaddyKey:
+    secure: AAABAO6Pdyl10mMhFQqS1hWOgln9tHf8eSxCbQNvn5uZAbpkj7kP12hG6v0ipijNPKH+XXidErKPhBvUz5EO/pSf
+  pulumi-aws-godaddy-dns:godaddySecret:
+    secure: AAABALF3lfVZ2UE9CaAKx2Oo2pUjuAyZ7bpIUh71/57+UmrmkcVeWMZ3anZhfg0lfznNovsp

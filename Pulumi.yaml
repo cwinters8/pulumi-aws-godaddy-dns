@@ -1,0 +1,4 @@
+name: pulumi-aws-godaddy-dns
+runtime: nodejs
+description: An AWS JS Pulumi program to configure GoDaddy nameservers and related
+  AWS records and certs.
