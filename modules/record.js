@@ -8,13 +8,17 @@ const ConfigureRecord = ({
   recordType,
   hostedZoneId,
 }) => {
-  const record = new aws.route53.Record(resourceName, {
-    name: recordName,
-    records,
-    ttl,
-    zoneId: hostedZoneId,
-    type: recordType,
-  });
+  const record = new aws.route53.Record(
+    resourceName,
+    {
+      name: recordName,
+      records,
+      ttl,
+      zoneId: hostedZoneId,
+      type: recordType,
+    },
+    { deleteBeforeReplace: true }
+  );
   return record;
 };
 

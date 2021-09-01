@@ -5,4 +5,4 @@ config:
     secure: AAABAO6Pdyl10mMhFQqS1hWOgln9tHf8eSxCbQNvn5uZAbpkj7kP12hG6v0ipijNPKH+XXidErKPhBvUz5EO/pSf
   pulumi-aws-godaddy-dns:godaddySecret:
     secure: AAABALF3lfVZ2UE9CaAKx2Oo2pUjuAyZ7bpIUh71/57+UmrmkcVeWMZ3anZhfg0lfznNovsp
-  pulumi-aws-godaddy-dns:regions: us-west-2,us-east-1
+  pulumi-aws-godaddy-dns:regions: us-east-1
